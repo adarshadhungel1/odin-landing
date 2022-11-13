@@ -6,22 +6,31 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .header >h3{
     font-size: 24px;
     color: #f9faf8;
+    align-items: flex-start;
+}
+.links{
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    align-items: flex-end;
 }
 .link{
     font-size: 18px;
     color: #e5e7eb;
+    margin-left: 15px;
 }
 .top >.content >h2 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 800;
 }
-
+.head >h3{
+    text-align: center;
+}
 .text {
     font-size: 18px;
     color: #e5e7eb;
@@ -34,6 +43,8 @@
 .random {
     margin: 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .quote{
