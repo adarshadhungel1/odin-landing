@@ -41,13 +41,14 @@
 }
 
 .random {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
     align-items: center;
-
+    display: flex;
+    justify-content:center;
+    align-self: baseline;
+    
 }
 .quote{
+    margin-top: 12px;
     background-color: #e5e7eb;
 }
 .quote-text {
@@ -68,6 +69,11 @@
     align-items:  center;
 }
 
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
 .footer {
     background-color: #1f2937;
     text-align: center;
