@@ -1,10 +1,10 @@
 body {
     text-align: center;
+    margin-top: 0%;
 }
 
 .top {
     background-color: #1f2937;
-    margin: 0px;
 }
 .picture{
     width: 300px;
@@ -95,3 +95,12 @@ button{
     margin-top: 15px;
     font-size: 20px;
 }
+.extend {
+    box-shadow: 0 0 0 100vmax #1f2927;
+    clip-path: inset(0 -100vmax); 
+}
+.extendq {
+    box-shadow: 0 0 0 100vmax #e5e7eb;
+    clip-path: inset(0 -100vmax); 
+}
+
