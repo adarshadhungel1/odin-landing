@@ -6,7 +6,12 @@ body {
     background-color: #1f2937;
     margin: 0px;
 }
-
+.picture{
+    width: 300px;
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 14px;
+}
 .header {
     display: flex;
     align-items: center;
