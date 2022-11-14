@@ -15,6 +15,7 @@ body {
     font-size: 24px;
     color: #f9faf8;
     align-items: flex-start;
+    margin-left: 16px;
 }
 .links{
     display: flex;
@@ -27,12 +28,16 @@ body {
     color: #e5e7eb;
     margin-left: 15px;
 }
-.top >.content >h2 {
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content-text >h2 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 800;
 }
-.text {
+.text{
     font-size: 18px;
     color: #e5e7eb;
 }
