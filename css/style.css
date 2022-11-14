@@ -23,10 +23,8 @@ body {
     margin-left: 16px;
 }
 .links{
-    display: flex;
     margin-left: auto;
     margin-right: 20px;
-    align-items: flex-end;
 }
 .link{
     font-size: 18px;
