@@ -74,6 +74,7 @@ body {
 }
 button{
     background-color: #3882f6;
+    border-color: #f9faf8;
 }
 .column{
     display: flex;
