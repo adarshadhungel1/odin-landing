@@ -76,7 +76,8 @@ button{
     background-color: #3882f6;
     border-color: #f9faf8;
     border: none;
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 6px;
 }
 .column{
     display: flex;
