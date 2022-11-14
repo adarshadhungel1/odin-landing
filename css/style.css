@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 .top {
     background-color: #1f2937;
     margin: 0px;
@@ -28,9 +32,6 @@
     font-size: 48px;
     font-weight: 800;
 }
-.head >h3{
-    text-align: center;
-}
 .text {
     font-size: 18px;
     color: #e5e7eb;
@@ -39,14 +40,11 @@
     display: flex;
     align-items: center;
 }
-
 .random {
-    align-items: center;
     display: flex;
-    justify-content:center;
-    align-self: baseline;
-    
+    justify-content:center;  
 }
+
 .quote{
     margin-top: 12px;
     background-color: #e5e7eb;
@@ -76,7 +74,6 @@
 }
 .footer {
     background-color: #1f2937;
-    text-align: center;
     margin-top: 15px;
     font-size: 20px;
 }
